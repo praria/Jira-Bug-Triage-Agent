@@ -1,0 +1,29 @@
+# Secrets. .env.example is safe to commit.
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# Local Python environment
+.venv/
+.pydeps/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Local vector database and generated defect dump
+.chroma/
+defectdump.json
+
+# macOS
+.DS_Store
